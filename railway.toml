@@ -1,0 +1,7 @@
+build = "npm run build"
+start = "npm start"
+
+[deploy]
+healthcheck = "/"
+healthcheckTimeout = 100
+restartPolicy = "always"
